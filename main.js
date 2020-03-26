@@ -8,14 +8,22 @@ while (i <= 100) {
 
   if (i % 3 == 0 && i % 5 == 0) {
     console.log("FizzBuzz");
+    var contPrec = document.getElementById('my-id').innerHTML;
+    document.getElementById('my-id').innerHTML = contPrec + "<li>" + "FizzBuzz" + "</li>";
   }
   else if (i % 5 == 0) {
     console.log("Buzz");
+    var contPrec = document.getElementById('my-id').innerHTML;
+    document.getElementById('my-id').innerHTML = contPrec + "<li>" + "Buzz" + "</li>";
   }
   else if(i % 3 == 0){
     console.log("Fizz");
+    var contPrec = document.getElementById('my-id').innerHTML;
+    document.getElementById('my-id').innerHTML = contPrec + "<li>" + "Fizz" + "</li>";
   }else{
     console.log(i);
+    var contPrec = document.getElementById('my-id').innerHTML;
+    document.getElementById('my-id').innerHTML = contPrec + "<li>" + i + "</li>";
   }
   i++;
 }
