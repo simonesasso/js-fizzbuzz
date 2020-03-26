@@ -22,7 +22,7 @@ while (i <= 100) {
   }
   else if(i % 3 == 0){
     console.log("Fizz");
-    var contPrec = document.getElementById('my-id').innerHTML;
+    contPrec = document.getElementById('my-id').innerHTML;
     document.getElementById('my-id').innerHTML = contPrec + "<li>" + "Fizz" + "</li>";
   }else{
     console.log(i);
